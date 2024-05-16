@@ -1,0 +1,52 @@
+import { Product } from "./types/Product";
+
+export const sampleProducts:Product[]=[
+    {
+        name:'Nike slim shirt',
+        slug:'nike-slim-shirt',
+        image:'../images/p1.jpg',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        category:'Shirts',
+        brand:'Nike',
+        countInStock:10,
+        rating:4.5,
+        numReviews:10,
+        price:60,
+    },
+    {
+        name:'Adidas Fit Shirt',
+        slug:'adidas-fit-shirt',
+        image:'../images/p2.jpg',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        category:'Shirts',
+        brand:'Addidas',
+        countInStock:20,
+        rating:4.0,
+        numReviews:8,
+        price:60,
+    },
+    {
+        name:'Lacoste Free Pants',
+        slug:'lacoste-free-pants',
+        image:'../images/p3.jpg',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        category:'Pants',
+        brand:'Lacoste',
+        countInStock:0,
+        rating:3.5,
+        numReviews:12,
+        price:70,
+    },
+    {
+        name:'Nike Slim Pants',
+        slug:'nike-slim-pants',
+        image:'../images/p4.jpg',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        category:'Pants',
+        brand:'Nike',
+        countInStock:15,
+        rating:5,
+        numReviews:10,
+        price:80,
+    }
+]
